@@ -1,0 +1,33 @@
+name: TimeLimitedBan
+version: beta_1.0.0
+api: 2.0.0
+author: Windows1145
+main: TimeLimitedBan\Main
+description: 一个未完成的定时ban插件(支持多语言),耗时1天半
+commands:
+  tban:
+    description: "高级的定时封禁插件封禁指令(平替sban?)"
+#    usage: "/tban <player|ip|clientid> <对应类型> [时间(s(秒), m(分), h(小时), d(天), w(周), mo(月), y(年))] [原因]"
+    permission: timelimitedban.command.ban
+  tunban:
+    description: "高级的定时封禁插件解封指令"
+#    usage: "/tunban <player|ip|clientid> <对应类型>"
+    permission: timelimitedban.command.unban
+  tbaninfo:
+    description: "查看一个玩家的封禁信息"
+#    usage: "/tbaninfo <player|ip|clientid> <对应类型>"
+    permission: timelimitedban.command.baninfo
+permissions:
+  timelimitedban:
+     default: op
+     description: "定时ban总指令"
+     children:
+        timelimitedban.command.ban:
+          description: "允许使用ban指令"
+          default: op
+        timelimitedban.command.unban:
+          description: "允许使用unban指令"
+          default: op
+        timelimitedban.command.baninfo:
+          description: "允许使用baninfo指令"
+          default: op
