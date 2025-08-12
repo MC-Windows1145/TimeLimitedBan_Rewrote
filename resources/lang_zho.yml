@@ -1,0 +1,27 @@
+# 封禁提示消息
+messages:
+  player-banned: "§c您已被封禁! 原因: {REASON} 解封时间: {TIME}"
+  ip-banned: "§c您的IP已被封禁! 原因: {REASON} 解封时间: {TIME}"
+  clientid-banned: "§c您的设备已被封禁! 原因: {REASON} 解封时间: {TIME}"
+  ban-broadcast: "§c玩家 {PLAYER} 已被封禁. 原因: {REASON} 解封时间: {TIME}"
+  
+# 命令反馈消息
+command:
+  usage-ban: "用法: /tban <player|ip|clientid> <标识> [时间] [原因]"
+  usage-unban: "用法: /tunban <player|ip|clientid> <标识>"
+  usage-baninfo: "用法: /tbaninfo <player|ip|clientid> <标识>"
+  invalid-type: "无效的类型。请使用 player, ip 或 clientid"
+  ban-success: "成功封禁 {TYPE}: {IDENTIFIER}"
+  unban-success: "成功解封 {TYPE}: {IDENTIFIER}"
+  not-banned: "{TYPE} {IDENTIFIER} 未被封禁"
+  
+# 封禁信息显示
+ban-info:
+  title: "=== 封禁信息 ==="
+  type: "类型: {TYPE}"
+  identifier: "标识: {IDENTIFIER}"
+  banned-by: "封禁者: {BANNED_BY}"
+  reason: "原因: {REASON}"
+  ban-time: "封禁时间: {TIME}"
+  expire-time: "解封时间: {EXPIRE}"
+  permanent: "永久"
