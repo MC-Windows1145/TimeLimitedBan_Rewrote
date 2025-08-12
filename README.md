@@ -1,7 +1,7 @@
 # TimeLimitedBan_Rewrote
 未完成的PMMP2的重写定时ban
 有借用其他插件，多语言的方法是AI写的(不想动)
-
+#
 我这插件写的真几把烂
 还不如重写前的好()
 作者:Windows1145
