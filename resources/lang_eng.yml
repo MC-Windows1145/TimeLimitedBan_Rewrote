@@ -1,0 +1,27 @@
+# Ban messages
+messages:
+  player-banned: "§cYou have been banned! Reason: {REASON} Unban time: {TIME}"
+  ip-banned: "§cYour IP has been banned! Reason: {REASON} Unban time: {TIME}"
+  clientid-banned: "§cYour device has been banned! Reason: {REASON} Unban time: {TIME}"
+  ban-broadcast: "§cPlayer {PLAYER} has been banned. Reason: {REASON} Unban time: {TIME}"
+  
+# Command feedback
+command:
+  usage-ban: "Usage: /ban <player|ip|clientid> <identifier> [time] [reason]"
+  usage-unban: "Usage: /unban <player|ip|clientid> <identifier>"
+  usage-baninfo: "Usage: /baninfo <player|ip|clientid> <identifier>"
+  invalid-type: "Invalid type. Use player, ip or clientid"
+  ban-success: "Successfully banned {TYPE}: {IDENTIFIER}"
+  unban-success: "Successfully unbanned {TYPE}: {IDENTIFIER}"
+  not-banned: "{TYPE} {IDENTIFIER} is not banned"
+  
+# Ban information display
+ban-info:
+  title: "=== Ban Information ==="
+  type: "Type: {TYPE}"
+  identifier: "Identifier: {IDENTIFIER}"
+  banned-by: "Banned by: {BANNED_BY}"
+  reason: "Reason: {REASON}"
+  ban-time: "Ban time: {TIME}"
+  expire-time: "Expire time: {EXPIRE}"
+  permanent: "Permanent"
