@@ -7,9 +7,9 @@ messages:
   
 # Command feedback
 command:
-  usage-ban: "Usage: /ban <player|ip|clientid> <identifier> [time] [reason]"
-  usage-unban: "Usage: /unban <player|ip|clientid> <identifier>"
-  usage-baninfo: "Usage: /baninfo <player|ip|clientid> <identifier>"
+  usage-ban: "Usage: /tban <player|ip|clientid> <identifier> [time] [reason]"
+  usage-unban: "Usage: /tunban <player|ip|clientid> <identifier>"
+  usage-baninfo: "Usage: /tbaninfo <player|ip|clientid> <identifier>"
   invalid-type: "Invalid type. Use player, ip or clientid"
   ban-success: "Successfully banned {TYPE}: {IDENTIFIER}"
   unban-success: "Successfully unbanned {TYPE}: {IDENTIFIER}"
@@ -24,4 +24,5 @@ ban-info:
   reason: "Reason: {REASON}"
   ban-time: "Ban time: {TIME}"
   expire-time: "Expire time: {EXPIRE}"
+
   permanent: "Permanent"
